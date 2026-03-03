@@ -1,0 +1,6 @@
+@CryptoFlow.API_HostAddress = http://localhost:5266
+
+GET {{CryptoFlow.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

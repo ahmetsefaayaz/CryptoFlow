@@ -1,0 +1,38 @@
+version: '3.8'
+
+services:
+  # 1. PostgreSQL Veritabanı
+  postgres:
+    image: postgres:latest
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: mysecretpassword
+      POSTGRES_DB: CryptoFlowDb
+    ports:
+      - "5433:5432"
+
+  # 2. MongoDB (Loglar için)
+  mongo:
+    image: mongo:latest
+    ports:
+      - "27018:27017"
+
+  # 3. Redis (Cache için)
+  redis:
+    image: redis:latest
+    ports:
+      - "6379:6379"
+
+  # 4. Senin ASP.NET Core API Projen
+  api:
+    build:
+      context: .
+      dockerfile: CryptoFlow.API/Dockerfile # Kendi API klasörünün adına göre burayı düzelt
+    ports:
+      - "8080:8080"
+    depends_on:
+      - postgres
+      - mongo
+      - redis
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development

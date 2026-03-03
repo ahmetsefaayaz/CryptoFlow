@@ -1,0 +1,15 @@
+C:\Code\ASP.NET\CryptoFlow\CryptoFlow.Application\bin\Debug\net8.0\CryptoFlow.Application.deps.json
+C:\Code\ASP.NET\CryptoFlow\CryptoFlow.Application\bin\Debug\net8.0\CryptoFlow.Application.dll
+C:\Code\ASP.NET\CryptoFlow\CryptoFlow.Application\bin\Debug\net8.0\CryptoFlow.Application.pdb
+C:\Code\ASP.NET\CryptoFlow\CryptoFlow.Application\bin\Debug\net8.0\CryptoFlow.Domain.dll
+C:\Code\ASP.NET\CryptoFlow\CryptoFlow.Application\bin\Debug\net8.0\CryptoFlow.Domain.pdb
+C:\Code\ASP.NET\CryptoFlow\CryptoFlow.Application\obj\Debug\net8.0\CryptoFlow.Application.csproj.AssemblyReference.cache
+C:\Code\ASP.NET\CryptoFlow\CryptoFlow.Application\obj\Debug\net8.0\CryptoFlow.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Code\ASP.NET\CryptoFlow\CryptoFlow.Application\obj\Debug\net8.0\CryptoFlow.Application.AssemblyInfoInputs.cache
+C:\Code\ASP.NET\CryptoFlow\CryptoFlow.Application\obj\Debug\net8.0\CryptoFlow.Application.AssemblyInfo.cs
+C:\Code\ASP.NET\CryptoFlow\CryptoFlow.Application\obj\Debug\net8.0\CryptoFlow.Application.csproj.CoreCompileInputs.cache
+C:\Code\ASP.NET\CryptoFlow\CryptoFlow.Application\obj\Debug\net8.0\CryptoFl.DD65BCFF.Up2Date
+C:\Code\ASP.NET\CryptoFlow\CryptoFlow.Application\obj\Debug\net8.0\CryptoFlow.Application.dll
+C:\Code\ASP.NET\CryptoFlow\CryptoFlow.Application\obj\Debug\net8.0\refint\CryptoFlow.Application.dll
+C:\Code\ASP.NET\CryptoFlow\CryptoFlow.Application\obj\Debug\net8.0\CryptoFlow.Application.pdb
+C:\Code\ASP.NET\CryptoFlow\CryptoFlow.Application\obj\Debug\net8.0\ref\CryptoFlow.Application.dll

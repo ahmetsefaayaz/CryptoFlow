@@ -1,0 +1,14 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=ee00f6b3_002D3601_002D4541_002D8a63_002D5d2e54983d5a/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="CreateOrderAsync_ShouldCreateOrder_WhenBuyOrderIsValid" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::15A03EBD-3344-403C-B219-546826F8041B::net8.0::CryptoFlow.xUnit.OrderServiceTests.CreateOrderAsync_ShouldCreateOrder_WhenBuyOrderIsValid&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::15A03EBD-3344-403C-B219-546826F8041B::net8.0::CryptoFlow.xUnit.OrderServiceTests.CreateOrderAsync_ShouldCreateOrder_WhenSellOrderIsValid&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::15A03EBD-3344-403C-B219-546826F8041B::net8.0::CryptoFlow.xUnit.OrderServiceTests.CreateOrderAsync_ShouldThrowException_WhenPaymentAndTargetCoinIsSame&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::15A03EBD-3344-403C-B219-546826F8041B::net8.0::CryptoFlow.xUnit.OrderServiceTests.CreateOrderAsync_ShouldThrowException_WhenWalletIsNotFound&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::15A03EBD-3344-403C-B219-546826F8041B::net8.0::CryptoFlow.xUnit.OrderServiceTests.CreateOrderAsync_ShouldThrowException_WhenPaymentFailed&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::15A03EBD-3344-403C-B219-546826F8041B::net8.0::CryptoFlow.xUnit.DepositServiceTests.DepositAsync_ShouldDeposit_WhenBalanceIsEnough&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::15A03EBD-3344-403C-B219-546826F8041B::net8.0::CryptoFlow.xUnit.DepositServiceTests.DepositAsync_ShouldDeposit_WhenInputIsValid&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::15A03EBD-3344-403C-B219-546826F8041B::net8.0::CryptoFlow.xUnit.DepositServiceTests.WithdrawAsync_ShouldWithdraw_WhenInputIsValid&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::15A03EBD-3344-403C-B219-546826F8041B::net8.0::CryptoFlow.xUnit.DepositServiceTests.WithdrawAsync_ShouldThrowException_WhenBalanceIsNotEnough&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
