@@ -28,12 +28,12 @@ You don't need to install any databases locally to run this project. Everything 
    ```bash
    git clone [https://github.com/ahmetsefaayaz/CryptoFlow.git](https://github.com/ahmetsefaayaz/CryptoFlow.git)
    cd CryptoFlow
-
+```
 ---
-
 ## Spin up the infrastructure and the API:
 ```bash
-(docker-compose up -d --build)
+docker-compose up -d --build
+```
 
 # The API will automatically apply EF Core migrations and seed the initial data.
 
@@ -61,4 +61,5 @@ If you want to inspect the databases using tools like DBeaver, MongoDB Compass, 
 # Running Tests
 The application includes comprehensive unit tests covering the core business logic (Order and Deposit services). To run the tests, use the .NET CLI:
 ```bash
-(dotnet test)
+dotnet test
+```
