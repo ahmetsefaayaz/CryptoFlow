@@ -29,13 +29,13 @@ You don't need to install any databases locally to run this project. Everything 
    git clone [https://github.com/ahmetsefaayaz/CryptoFlow.git](https://github.com/ahmetsefaayaz/CryptoFlow.git)
    cd CryptoFlow
 ```
----
+
 ## Spin up the infrastructure and the API:
 ```bash
 docker-compose up -d --build
 ```
 
-## The API will automatically apply EF Core migrations and seed the initial data.
+* The API will automatically apply EF Core migrations and seed the initial data.
 
 ### API Usage & Swagger
 Once the containers are up and running, you can access the Swagger UI to test the endpoints:
