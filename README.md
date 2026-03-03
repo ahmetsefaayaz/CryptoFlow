@@ -48,7 +48,7 @@ If you want to inspect the databases using tools like DBeaver, MongoDB Compass, 
 * **Port:** 5433
 * **Database:** CryptoFlowDb
 * **Username:** postgres
-* *Password:** mysecretpassword
+* **Password:** mysecretpassword
 
 ## MongoDB (Transactions & Logs)
 * **URI:** mongodb://localhost:27017
