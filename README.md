@@ -51,7 +51,7 @@ If you want to inspect the databases using tools like DBeaver, MongoDB Compass, 
 * **Password:** mysecretpassword
 
 ## MongoDB (Transactions & Logs)
-* **URI:** mongodb://localhost:27017
+* **URI:** mongodb://localhost:27018
 * **Database:** CryptoNoSqlDb
 
 ## Redis (Cache)
