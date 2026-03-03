@@ -10,3 +10,4 @@ C:\Code\ASP.NET\CryptoFlow\CryptoFlow.Domain\obj\Debug\net8.0\CryptoFlow.Domain.
 C:\Code\ASP.NET\CryptoFlow\CryptoFlow.Domain\obj\Debug\net8.0\refint\CryptoFlow.Domain.dll
 C:\Code\ASP.NET\CryptoFlow\CryptoFlow.Domain\obj\Debug\net8.0\CryptoFlow.Domain.pdb
 C:\Code\ASP.NET\CryptoFlow\CryptoFlow.Domain\obj\Debug\net8.0\ref\CryptoFlow.Domain.dll
+C:\Code\ASP.NET\CryptoFlow\CryptoFlow.Domain\obj\Debug\net8.0\CryptoFlow.Domain.sourcelink.json

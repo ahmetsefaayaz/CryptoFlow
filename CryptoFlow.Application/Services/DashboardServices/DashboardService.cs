@@ -1,5 +1,6 @@
 ﻿using CryptoFlow.Application.Dtos.CoinDtos;
 using CryptoFlow.Application.Dtos.DashboardDtos;
+using CryptoFlow.Application.Dtos.WalletItemDto;
 using CryptoFlow.Application.Interfaces.ICrypto;
 using CryptoFlow.Application.Interfaces.IDashboard;
 using CryptoFlow.Application.Interfaces.ITransaction;
@@ -40,6 +41,14 @@ public class DashboardService: IDashboardService
         var walletItems = walletTask.Result;
         var coins = coinTask.Result;
         var transactions =  transactionsTask.Result;
+
+        var walletItemDtos = walletItems.Select(w => new GetWalletItemDto
+        {
+            Balance = w.Balance,
+            CoinId = w.CoinId,
+            Id = w.Id,
+            Symbol = w.Coin.Symbol
+        });
         
         decimal totalRevenue = 0;
         foreach (var walletItem in walletItems)
@@ -47,6 +56,7 @@ public class DashboardService: IDashboardService
             var currentPrice = livePrices.ContainsKey(walletItem.Coin.Symbol) ? livePrices[walletItem.Coin.Symbol] : 0;
             totalRevenue += (walletItem.Balance * currentPrice);
         }
+        
         var topCoins = coins.Select(c => new TopCoinDto
         {
             Id = c.Id,
@@ -59,7 +69,7 @@ public class DashboardService: IDashboardService
         .ToList();
         return new UserDashboardDto
         {
-            WalletItems = walletItems,
+            WalletItems = walletItemDtos,
             Top3Coins = topCoins,
             Transactions = transactions,
             TotalRevenue = totalRevenue

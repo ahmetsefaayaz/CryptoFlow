@@ -17,3 +17,4 @@ C:\Code\ASP.NET\CryptoFlow\CryptoFlow.Persistence\obj\Debug\net8.0\refint\Crypto
 C:\Code\ASP.NET\CryptoFlow\CryptoFlow.Persistence\obj\Debug\net8.0\CryptoFlow.Persistence.pdb
 C:\Code\ASP.NET\CryptoFlow\CryptoFlow.Persistence\obj\Debug\net8.0\CryptoFlow.Persistence.genruntimeconfig.cache
 C:\Code\ASP.NET\CryptoFlow\CryptoFlow.Persistence\obj\Debug\net8.0\ref\CryptoFlow.Persistence.dll
+C:\Code\ASP.NET\CryptoFlow\CryptoFlow.Persistence\obj\Debug\net8.0\CryptoFlow.Persistence.sourcelink.json

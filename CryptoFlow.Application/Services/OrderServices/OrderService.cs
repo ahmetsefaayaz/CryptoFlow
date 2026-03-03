@@ -24,17 +24,39 @@ public class OrderService: IOrderService
         _cryptoService = cryptoService;
     }
     
-    public async Task<Order> GetOrderAsync(Guid id)
+    public async Task<GetOrderDto> GetOrderAsync(Guid id)
     {
         var order = await _unitOfWork.OrderRepository.GetOrderAsync(id);
         if (order == null) throw new NotFoundException("Order not found");
-        return order;
+
+        return new GetOrderDto
+        {
+            Id = order.Id,
+            CreatedAt = order.CreatedDate,
+            OrderType = order.OrderType,
+            PaymentCoinId = order.PaymentCoinId,
+            TargetCoinId = order.TargetCoinId,
+            Price = order.Price,
+            Quantity = order.Quantity,
+            UserId = order.UserId
+        };
+        
     }
 
-    public async Task<List<Order>> GetAllOrdersAsync()
+    public async Task<IEnumerable<GetOrderDto>> GetAllOrdersAsync()
     {
         var orders = await _unitOfWork.OrderRepository.GetOrdersAsync();
-        return orders;
+        return orders.Select(order => new GetOrderDto
+        {
+            Id = order.Id,
+            CreatedAt = order.CreatedDate,
+            OrderType = order.OrderType,
+            PaymentCoinId = order.PaymentCoinId,
+            TargetCoinId = order.TargetCoinId,
+            Price = order.Price,
+            Quantity = order.Quantity,
+            UserId = order.UserId
+        });
     }
 
     public async Task CreateOrderAsync(Guid userId, CreateOrderDto dto)

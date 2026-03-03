@@ -167,3 +167,4 @@ C:\Code\ASP.NET\CryptoFlow\CryptoFlow.API\bin\Debug\net8.0\System.IO.Pipelines.d
 C:\Code\ASP.NET\CryptoFlow\CryptoFlow.API\bin\Debug\net8.0\System.Text.Encodings.Web.dll
 C:\Code\ASP.NET\CryptoFlow\CryptoFlow.API\bin\Debug\net8.0\System.Text.Json.dll
 C:\Code\ASP.NET\CryptoFlow\CryptoFlow.API\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Code\ASP.NET\CryptoFlow\CryptoFlow.API\obj\Debug\net8.0\CryptoFlow.API.sourcelink.json

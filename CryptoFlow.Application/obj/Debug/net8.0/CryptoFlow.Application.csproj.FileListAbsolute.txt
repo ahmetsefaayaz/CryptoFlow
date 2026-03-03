@@ -13,3 +13,4 @@ C:\Code\ASP.NET\CryptoFlow\CryptoFlow.Application\obj\Debug\net8.0\CryptoFlow.Ap
 C:\Code\ASP.NET\CryptoFlow\CryptoFlow.Application\obj\Debug\net8.0\refint\CryptoFlow.Application.dll
 C:\Code\ASP.NET\CryptoFlow\CryptoFlow.Application\obj\Debug\net8.0\CryptoFlow.Application.pdb
 C:\Code\ASP.NET\CryptoFlow\CryptoFlow.Application\obj\Debug\net8.0\ref\CryptoFlow.Application.dll
+C:\Code\ASP.NET\CryptoFlow\CryptoFlow.Application\obj\Debug\net8.0\CryptoFlow.Application.sourcelink.json

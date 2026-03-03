@@ -23,6 +23,7 @@ public class WalletRepository: IWalletRepository
     {
         return await _context.Wallets
             .Include(w => w.WalletItems)
+            .ThenInclude(wi => wi.Coin)
             .FirstOrDefaultAsync(x => x.UserId == userId);
     }
 

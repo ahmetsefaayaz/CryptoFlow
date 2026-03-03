@@ -1,4 +1,5 @@
-﻿using CryptoFlow.Application.Dtos.WalletItemDto;
+﻿using CryptoFlow.Application.Dtos.WalletDtos;
+using CryptoFlow.Application.Dtos.WalletItemDto;
 using CryptoFlow.Application.Exceptions;
 using CryptoFlow.Application.Interfaces.ICrypto;
 using CryptoFlow.Application.Interfaces.IDashboard;
@@ -20,18 +21,25 @@ public class WalletService: IWalletService
         _userManager = userManager;
     }
 
-    public async Task <IEnumerable<GetWalletItemDto>> GetUsersWalletAsync(Guid userId)
+    public async Task <GetWalletDto> GetUsersWalletAsync(Guid userId)
     {
         var user = await _userManager.FindByIdAsync(userId.ToString());
         if (user == null) throw new NotFoundException("User not found");
         var wallet = await _unitOfWork.WalletRepository.GetWalletByUserIdAsync(userId);
         if (wallet == null) throw new NotFoundException("Wallet not found");
         var walletItems = wallet.WalletItems.ToList();
-        return walletItems.Select(w => new GetWalletItemDto
+        var walletItemsDto = walletItems.Select(w => new GetWalletItemDto
         {
             Balance = w.Balance,
-            CoinId = w.CoinId
+            CoinId = w.CoinId,
+            Id = w.Id,
+            Symbol = w.Coin.Symbol
         });
-
+        return new GetWalletDto
+        {
+            WalletItems = walletItemsDto,
+            Id = wallet.Id
+        };
+        
     }
 }

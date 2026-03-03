@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CryptoFlow.Persistence")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9fefb8719c546c31193cca3fe8c727ddd7efd989")]
 [assembly: System.Reflection.AssemblyProductAttribute("CryptoFlow.Persistence")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CryptoFlow.Persistence")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

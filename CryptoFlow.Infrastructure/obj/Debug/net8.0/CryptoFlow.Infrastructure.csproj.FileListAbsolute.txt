@@ -17,3 +17,4 @@ C:\Code\ASP.NET\CryptoFlow\CryptoFlow.Infrastructure\obj\Debug\net8.0\refint\Cry
 C:\Code\ASP.NET\CryptoFlow\CryptoFlow.Infrastructure\obj\Debug\net8.0\CryptoFlow.Infrastructure.pdb
 C:\Code\ASP.NET\CryptoFlow\CryptoFlow.Infrastructure\obj\Debug\net8.0\CryptoFlow.Infrastructure.genruntimeconfig.cache
 C:\Code\ASP.NET\CryptoFlow\CryptoFlow.Infrastructure\obj\Debug\net8.0\ref\CryptoFlow.Infrastructure.dll
+C:\Code\ASP.NET\CryptoFlow\CryptoFlow.Infrastructure\obj\Debug\net8.0\CryptoFlow.Infrastructure.sourcelink.json
