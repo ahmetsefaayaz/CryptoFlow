@@ -27,8 +27,10 @@ You don't need to install any databases locally to run this project. Everything 
 1. Clone the repository:
    ```bash
    git clone https://github.com/ahmetsefaayaz/CryptoFlow.git
+   ```
+   '''bash
    cd CryptoFlow
-
+   '''
 ## Spin up the infrastructure and the API:
 ```bash
 docker-compose up -d --build
