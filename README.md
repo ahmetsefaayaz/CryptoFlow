@@ -28,6 +28,7 @@ You don't need to install any databases locally to run this project. Everything 
    ```bash
    git clone https://github.com/ahmetsefaayaz/CryptoFlow.git
    ```
+2. Open Projects root
    ```bash
    cd CryptoFlow
    ```
