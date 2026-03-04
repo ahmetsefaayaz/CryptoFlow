@@ -43,28 +43,28 @@ docker-compose up -d --build
 Once the containers are up and running, you can access the Swagger UI to test the endpoints:
 * **Swagger URL**: http://localhost:8080/swagger
 
-### Database Connections (For Local Inspection)
+## Database Connections (For Local Inspection)
 If you want to inspect the databases using tools like DBeaver, MongoDB Compass, or Redis Insight, use the following connection strings mapped to your local machine:
 
-## PostgreSQL (Main Data & Identity)
+### PostgreSQL (Main Data & Identity)
 * **Host:** localhost
 * **Port:** 5433
 * **Database:** CryptoFlowDb
 * **Username:** postgres
 * **Password:** mysecretpassword
 
-## MongoDB (Transactions & Logs)
+### MongoDB (Transactions & Logs)
 * **URI:** mongodb://localhost:27018
 * **Database:** CryptoNoSqlDb
 
-## Redis (Cache)
+### Redis (Cache)
 * **Host:** localhost:6379
 
-## Running Tests
+### Running Tests
 The application includes comprehensive unit tests covering the core business logic (Order and Deposit services). To run the tests, use the .NET CLI:
 ```bash
 dotnet test
 ```
-### Admin Information
+#### Admin Information
 * **Email:** admin@gmail.com
 * **Password:** _AdminPassword0
