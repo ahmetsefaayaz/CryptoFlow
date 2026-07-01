@@ -117,7 +117,7 @@ builder.Services.AddAuthentication(options =>
 
 builder.Services.AddSwaggerGen(c =>
 {
-    c.SwaggerDoc("v1", new OpenApiInfo { Title = "LibraryAPIV2", Version = "v1" });
+    c.SwaggerDoc("v1", new OpenApiInfo { Title = "CryptoFlow", Version = "v1" });
 
     c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
     {
