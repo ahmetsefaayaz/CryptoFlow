@@ -2,7 +2,7 @@
 
 CryptoFlow is a comprehensive backend API for cryptocurrency portfolio management. It is built adhering to Clean Architecture principles, ensuring a scalable, testable, and maintainable codebase. The entire infrastructure is fully dockerized for seamless deployment and development.
 
-## 🛠 Tech Stack
+## Tech Stack
 
 * **Framework:** .NET 8 / C#
 * **Architecture:** Onion Architecture (Domain, Application, Infrastructure, Persistence, API)
