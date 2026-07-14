@@ -1,4 +1,4 @@
-# CryptoFlow API 🚀
+# CryptoFlow API 
 
 CryptoFlow is a comprehensive backend API for cryptocurrency portfolio management. It is built adhering to Clean Architecture principles, ensuring a scalable, testable, and maintainable codebase. The entire infrastructure is fully dockerized for seamless deployment and development.
 
@@ -15,7 +15,7 @@ CryptoFlow is a comprehensive backend API for cryptocurrency portfolio managemen
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 You don't need to install any databases locally to run this project. Everything is containerized!
 
